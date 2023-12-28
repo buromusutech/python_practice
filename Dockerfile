@@ -13,4 +13,4 @@ RUN pip install --no-cache-dir -r requirements.txt
 COPY . .
 
 # コンテナを実行するときのコマンドを設定
-CMD ["python", "./handler.py"]
+CMD ["bash"]
